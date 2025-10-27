@@ -1,53 +1,39 @@
-html{
-  height:100%;
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #AFA6D8;
+  color: #3A3A3A;
 }
 
-
-body{
-  background-color:#AFA6D8;
-  color:#3A3A3A;
-  height:100%;
-  margin:0;
-}
-
-
-#root {
+.App {
   height: 100%;
 }
 
-.App{
-  height:100%;
-}
-
-.title{
+.title {
   display: flex;
   justify-content: center;
-  height:20%;
+  height: 20%;
   align-items: center;
 }
 
-.counter{
+.counter, .comp {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.comp{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.comp {
   background-color: #B6ADE1;
   min-width: 400px;
   border-radius: 20px;
   min-height: 100px;
-  gap:10px;
+  gap: 10px;
 }
 
-.Buttonss{
-  margin-top:15px;
-  width:130px;
+.Buttonss {
+  margin-top: 15px;
+  width: 130px;
   display: flex;
   justify-content: space-around;
-};
+}
